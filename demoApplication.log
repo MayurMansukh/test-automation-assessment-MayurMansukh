@@ -1,0 +1,16 @@
+[main] WARN  pages.LoginPage  - Test is started
+[main] INFO  BASE.Base  - Entering username
+[main] INFO  BASE.Base  - Entering Password
+[main] INFO  BASE.Base  - Logged in
+[main] WARN  pages.LoginPage  - Test is started
+[main] INFO  BASE.Base  - Entering username
+[main] INFO  BASE.Base  - Entering Password
+[main] INFO  BASE.Base  - Logged in
+[main] WARN  pages.LoginPage  - Test started
+[main] INFO  BASE.Base  - Entering username
+[main] INFO  BASE.Base  - Entering Password
+[main] INFO  BASE.Base  - Logged in
+[main] WARN  pages.LoginPage  - Test started
+[main] INFO  BASE.Base  - Entering username
+[main] INFO  BASE.Base  - Entering Password
+[main] INFO  BASE.Base  - Logged in

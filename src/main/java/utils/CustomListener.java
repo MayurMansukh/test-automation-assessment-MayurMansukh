@@ -1,9 +1,9 @@
-package listener;
+package utils;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-import utils.TakeScreenshot;
+
 
 public class CustomListener extends TakeScreenshot implements ITestListener
 {

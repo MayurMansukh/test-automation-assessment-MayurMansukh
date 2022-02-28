@@ -1,7 +1,7 @@
 package testCases;
 
 import BASE.Base;
-import listener.CustomListener;
+import utils.CustomListener;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;

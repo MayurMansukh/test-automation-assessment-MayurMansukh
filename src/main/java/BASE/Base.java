@@ -10,6 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import utils.ConfigReader;
+import utils.TakeScreenshot;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -29,9 +31,11 @@ public class Base {
 
     @BeforeTest
     public void setup() throws ATUTestRecorderException {
+        TakeScreenshot obj = new TakeScreenshot();
         DateFormat dateFormat = new SimpleDateFormat("yy-MM-dd HH-mm-ss");
         Date date = new Date();
         recorder = new ATUTestRecorder("C:\\Users\\mayurmansukh\\OneDrive - Instarem PTE Ltd\\Desktop\\Automation-Assessment\\Recording","TestVideo-"+dateFormat.format(date),false);
+        //obj.fileDelete();
         recorder.start();
         ConfigReader config =new ConfigReader();
         WebDriverManager.chromedriver().setup();

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/mayurmansukh/OneDrive - Instarem PTE Ltd/Desktop/Automation-Assessment/src/test/java/testCases/LoginTest.java(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="testCases.LoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="load_log4j"/>
+          <include name="setup"/>
+          <include name="beforeTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testCases.LoginTest -->
+    </classes>
+  </test> <!-- C:/Users/mayurmansukh/OneDrive - Instarem PTE Ltd/Desktop/Automation-Assessment/src/test/java/testCases/LoginTest.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

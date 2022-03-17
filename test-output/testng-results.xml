@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="8060" started-at="2022-03-17T18:16:59 IST" finished-at="2022-03-17T18:17:07 IST">
+    <groups>
+    </groups>
+    <test name="C:/Users/mayurmansukh/OneDrive - Instarem PTE Ltd/Desktop/Automation-Assessment/src/test/java/testCases/LoginTest.java" duration-ms="8060" started-at="2022-03-17T18:16:59 IST" finished-at="2022-03-17T18:17:07 IST">
+      <class name="testCases.LoginTest">
+        <test-method status="PASS" signature="load_log4j()[pri:0, instance:testCases.LoginTest@6737fd8f]" name="load_log4j" is-config="true" duration-ms="40" started-at="2022-03-17T18:16:59 IST" finished-at="2022-03-17T18:16:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_log4j -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:testCases.LoginTest@6737fd8f]" name="beforeTest" is-config="true" duration-ms="4416" started-at="2022-03-17T18:16:59 IST" finished-at="2022-03-17T18:17:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testCases.LoginTest@6737fd8f]" name="loginTest" duration-ms="1489" started-at="2022-03-17T18:17:04 IST" finished-at="2022-03-17T18:17:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.LoginTest@6737fd8f]" name="teardown" is-config="true" duration-ms="2086" started-at="2022-03-17T18:17:05 IST" finished-at="2022-03-17T18:17:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testCases.LoginTest -->
+    </test> <!-- C:/Users/mayurmansukh/OneDrive - Instarem PTE Ltd/Desktop/Automation-Assessment/src/test/java/testCases/LoginTest.java -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
